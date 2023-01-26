@@ -1,4 +1,4 @@
-import Costitem from "./components/Costitem";
+import Costs from "./components/Costs";
 
 function App() {
   const costs = [
@@ -21,9 +21,7 @@ function App() {
 
   return (
     <div>
-      <Costitem date={costs[0].date} description={costs[0].description} amount={costs[0].amount}></Costitem>
-      <Costitem date={costs[1].date} description={costs[1].description} amount={costs[1].amount}></Costitem>
-      <Costitem date={costs[2].date} description={costs[2].description} amount={costs[2].amount}></Costitem>
+      <Costs costs={costs} />
     </div>
   );
 }
