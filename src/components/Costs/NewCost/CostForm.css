@@ -1,8 +1,7 @@
 .new-cost__controls {
   display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  margin-bottom: 1rem;
+  justify-content: space-around;
+  align-items: center;
   text-align: left;
 }
 
